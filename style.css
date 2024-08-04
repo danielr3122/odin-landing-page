@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-bottom: 4rem;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 128px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    padding-right: 128px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Content 1 */
+
+.content-1 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #1f2937;
+    padding-bottom: 6rem;
+}
+
+.content-1-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 128px;
+    align-self: center;
+}
+
+.content-1-heading, .content-1-body, .content-1-button {
+    margin: 0px;
+    max-width: calc(50vw - 150px);
+}
+
+.content-1-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content-1-body {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.content-1-button {
+    background-color: #3882f6;
+    max-width: 128px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.rectangle {
+    text-align: center;
+    vertical-align: middle;
+    width: calc(50vw - 128px);
+    height: 200px;
+    background-color: #3498db;
+    margin-left: 22px;
+    padding-right: 128px;
+}
+
+/* Content 2 */
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.content-2-heading {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2-box {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border-color: #3498db;
+    border-style: solid;
+    /* background-color: black; */
+}
+
+.content-2-box-text {
+    text-align: center;
+}
+
+.content-2-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Content 3 */

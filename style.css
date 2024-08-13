@@ -23,6 +23,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     padding-left: 128px;
+    margin: 0px;
 }
 
 .links {
@@ -101,11 +102,12 @@ body {
     align-items: center;
     padding-left: 128px;
     padding-right: 128px;
+    padding-bottom: 50px;
 }
 
 .content-2-heading {
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     color: #1f2937;
     font-weight: bolder;
     font-size: 36px;
@@ -137,3 +139,76 @@ body {
 }
 
 /* Content 3 */
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5e7eb;
+    /* padding-bottom: 25px; */
+}
+
+.quote {
+    display: flex;
+    align-self: flex-start;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin-top: 75px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Content 4 */
+
+.content-4 {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem;
+    background-color: #3882f6;
+    margin-left: 256px;
+    margin-right: 256px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content-4-main-text {
+    color: white;
+    font-weight: bold;
+}
+
+.content-4-sub-text {
+    color: white;
+}
+
+.content-4-button {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
